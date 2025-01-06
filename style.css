@@ -111,9 +111,15 @@ footer p {
 
 .animated-window {
     width: 80%; /* Adjust width as needed */
-    max-width: 400px; /* Maximum width for the window */
+    max-width: 300px; /* Maximum width for the window */
     margin: 0 auto; /* Center the window */
     overflow: hidden; /* Hide overflow */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.animated-window img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 250px; /* Set a maximum width for the image */
 }
