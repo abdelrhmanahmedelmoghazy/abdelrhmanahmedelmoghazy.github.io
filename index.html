@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdelrhman Ahmed Mohamed Elmoghazy</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>Abdelrhman Ahmed Mohamed Elmoghazy</title>
+    <meta name="description" content="A customizable portfolio template for frontend developers, showcasing skills, projects, and experience."/>
+    <link rel="icon" href="./favicon.ico"/>
 </head>
 <body class="bg-gray-900 text-gray-100">
-    <header class="p-5 bg-gray-800 text-center">
-        <h1 class="text-4xl font-bold">Abdelrhman Ahmed Mohamed Elmoghazy</h1>
-        <p class="text-lg mt-2">Programmer | Web Designer | Ethical Hacker | DevSecOps Expert</p>
-    </header>
-    <main class="p-5">
-        <section id="about" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">About Me</h2>
-            <p class="mt-4">I am Abdelrhman Ahmed Mohamed Elmoghazy, a 21-year-old programmer and ethical hacker originally from Alexandria, Egypt, and residing in Kuwait since 2010. My passion lies in creating innovative digital solutions, with a strong focus on security and functionality.</p>
-            <p class="mt-4">With extensive experience in web design, backend development, and mobile applications, I continuously seek to expand my knowledge and skills in the tech industry. My journey has also included roles in sales, digital marketing, and freelance programming, giving me a well-rounded perspective on business and technology.</p>
-        </section>
-        <section id="skills" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Programming Languages Proficiency</h2>
-            <div class="mt-4">
-                <div class="label">Python - 100%</div>
-                <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
-                    <div class="progress-bar-fill" style="width: 100%;"></div>
-                </div>
+    <main class="h-screen bg-[#120012] flex">
+        <div class="sticky top-0 left-0 h-screen shadow-lg backdrop-blur-3xl border-r-2 border-white/10 w-16 flex flex-col z-50 justify-evenly">
+            <a href="#about" class="flex items-center justify-center transform rotate-90 transition-all duration-100 ease-in-out">
+                <span class="text-sm font-extrabold cursor-pointer opacity-50 hover:opacity-100">About</span>
+            </a>
+            <a href="#projects" class="flex items-center justify-center transform rotate-90 transition-all duration-100 ease-in-out">
+                <span class="text-sm font-extrabold cursor-pointer opacity-50 hover:opacity-100">Projects</span>
+            </a>
+            <a href="#contact" class="flex items-center justify-center transform rotate-90 transition-all duration-100 ease-in-out">
+                <span class="text-sm font-extrabold cursor-pointer opacity-50 hover:opacity-100">Contact</span>
+            </a>
+        </div>
+        <div class="w-full overflow-y-auto mx-auto overflow-hidden">
+            <div class="px-5 sm:px-40">
+                <header class="p-5 bg-gray-800 text-center">
+                    <h1 class="text-4xl font-bold">Abdelrhman Ahmed Mohamed Elmoghazy</h1>
+                    <p class="text-lg mt-2">Programmer | Web Designer | Ethical Hacker | DevSecOps Expert</p>
+                </header>
+                <section id="about" class="py-20 w-full space-y-10" data-aos="fade-up">
+                    <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">About Me</h2>
+                    <p class="mt-4">I am Abdelrhman Ahmed Mohamed Elmoghazy, a 21-year-old programmer and ethical hacker originally from Alexandria, Egypt, and residing in Kuwait since 2010. My passion lies in creating innovative digital solutions, with a strong focus on security and functionality.</p>
+                    <p class="mt-4">With extensive experience in web design, backend development, and mobile applications, I continuously seek to expand my knowledge and skills in the tech industry.</p>
+                </section>
+                <section id="skills" class="my-10" data-aos="fade-up">
+                    <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Programming Languages Proficiency</h2>
+                    <div class="mt-4">
+                        <div class="label">Python - 100%</div>
+                        <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
+                            <div class="progress-bar-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="label">C++ - 100%</div>
+                        <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
+                            <div class="progress-bar-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="label">Go - 80%</div>
+                        <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
+                            <div class="progress-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="label">C# - 100%</div>
+                        <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
+                            <div class="progress-bar-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="label">Java - 50%</div>
+                        <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
+                            <div class="progress-bar-fill" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="label">JavaScript - 50%</div>
+                        <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
+                            <div class="progress-bar-fill" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="projects" class="py-20">
+                    <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Projects</h2>
+                    <div id="projects-list" class="mt-4">
+                        <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors">
+                            <h3 class="text-2xl font-semibold">Saintgram</h3>
+                            <p class="mt-2">Saintgram is a Python tool that allows you to fetch Instagram user information, including obfuscated emails and phone numbers, as well as follower and following lists.</p>
+                            <a href="https://github.com/joe444-pnj/saintgram" class="text-blue-500 hover:underline mt-2 block">View Project on GitHub</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="my-10" data-aos="fade-up">
+                    <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Contact</h2>
+                    <p class="mt-4">Email: <a href="mailto:abdelrhmanelmoghazy1@gmail.com" class="text-blue-500 hover:underline">abdelrhmanelmoghazy1@gmail.com</a></p>
+                    <p>GitHub: <a href="https://github.com/abdelrhmanahmedelmoghazy" class="text-blue-500 hover:underline">abdelrhmanahmedelmoghazy</a></p>
+                </section>
             </div>
-            <div class="mt-4">
-                <div class="label">C++ - 100%</div>
-                <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
-                    <div class="progress-bar-fill" style="width: 100%;"></div>
-                </div>
-            </div>
-            <div class="mt-4">
-                <div class="label">Go - 80%</div>
-                <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
-                    <div class="progress-bar-fill" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="mt-4">
-                <div class="label">C# - 100%</div>
-                <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
-                    <div class="progress-bar-fill" style="width: 100%;"></div>
-                </div>
-            </div>
-            <div class="mt-4">
-                <div class="label">Java - 50%</div>
-                <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
-                    <div class="progress-bar-fill" style="width: 50%;"></div>
-                </div>
-            </div>
-            <div class="mt-4">
-                <div class="label">JavaScript - 50%</div>
-                <div class="progress-bar" data-aos="progress-bar" data-aos-duration="1500">
-                    <div class="progress-bar-fill" style="width: 50%;"></div>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Projects</h2>
-            <div id="projects-list" class="mt-4">
-                <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors">
-                    <h3 class="text-2xl font-semibold">Saintgram</h3>
-                    <p class="mt-2">Saintgram is a Python tool that allows you to fetch Instagram user information, including obfuscated emails and phone numbers, as well as follower and following lists.</p>
-                    <a href="https://github.com/joe444-pnj/saintgram" class="text-blue-500 hover:underline mt-2 block">View Project on GitHub</a>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Contact</h2>
-            <p class="mt-4">Email: <a href="mailto:abdelrhmanelmoghazy1@gmail.com" class="text-blue-500 hover:underline">abdelrhmanelmoghazy1@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/joe444-pnj" class="text-blue-500 hover:underline">abdelrhmanahmedelmoghazy</a></p>
-        </section>
+        </div>
     </main>
     <footer class="p-5 bg-gray-800 text-center">
         <p>&copy; 2025 Abdelrhman Ahmed Mohamed Elmoghazy. All Rights Reserved.</p>
