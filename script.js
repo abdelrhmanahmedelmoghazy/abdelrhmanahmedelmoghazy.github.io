@@ -17,3 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
         projectsList.appendChild(projectCard);
     });
 });
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const message = document.getElementById('message').value;
+    const phoneNumber = '+96550032370'; // Replace with your WhatsApp number (in international format)
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappUrl, '_blank'); // Open WhatsApp in a new tab
+    document.getElementById('message').value = ''; // Clear the message field
+});
