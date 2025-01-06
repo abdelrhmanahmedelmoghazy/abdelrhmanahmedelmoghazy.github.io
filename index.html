@@ -3,24 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdelrhman Ahmed Mohamed Elmoghazy </title>
+    <title>Abdelrhman Ahmed Mohamed Elmoghazy</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #000428, #004e92);
+            color: #e0e0e0;
+            font-family: 'Inter', sans-serif;
+        }
+        header, footer {
+            background-color: #0a1f44;
+        }
+        h1, h2 {
+            color: #00bcd4;
+        }
+        a {
+            color: #00bcd4;
+        }
+        a:hover {
+            color: #029eb3;
+        }
+        .section-title {
+            border-bottom: 2px solid #00bcd4;
+        }
+    </style>
 </head>
-<body class="bg-gray-900 text-gray-100">
-    <header class="p-5 bg-gray-800 text-center">
-        <h1 class="text-4xl font-bold">Abdelrhman Ahmed Mohamed Elmoghazy</h1>
-        <p class="text-lg mt-2">Programmer | Web Designer | Ethical Hacker | DevSecOps Expert</p>
+<body>
+    <header class="p-5 text-center">
+        <h1 class="text-5xl font-extrabold" data-aos="fade-down">Abdelrhman Ahmed Mohamed Elmoghazy</h1>
+        <p class="text-xl mt-2" data-aos="fade-up">Programmer | Web Designer | Ethical Hacker | DevSecOps Expert</p>
     </header>
     <main class="p-5">
-        <section id="about" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">About Me</h2>
+        <section id="about" class="my-10" data-aos="fade-right">
+            <h2 class="text-4xl font-semibold section-title">About Me</h2>
             <p class="mt-4">I am Abdelrhman Ahmed Mohamed Elmoghazy, 21 years old, originally from Alexandria, Egypt, and have lived in Kuwait since 2010. I am a passionate programmer, web designer, and ethical hacker with extensive skills in various domains.</p>
         </section>
-        <section id="skills" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Skills</h2>
-            <ul class="mt-4 grid grid-cols-2 gap-4">
+        <section id="skills" class="my-10" data-aos="fade-left">
+            <h2 class="text-4xl font-semibold section-title">Skills</h2>
+            <ul class="mt-4 grid grid-cols-2 gap-6">
                 <li>DevSecOps</li>
                 <li>Microsoft Excel</li>
                 <li>Digital Illustration</li>
@@ -38,23 +59,24 @@
                 <li>Marketing</li>
             </ul>
         </section>
-        <section id="experience" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Experience</h2>
+        <section id="experience" class="my-10" data-aos="fade-right">
+            <h2 class="text-4xl font-semibold section-title">Experience</h2>
             <p class="mt-4">I have worked as a sales representative, digital marketer, and freelance programmer. My diverse background has provided me with a unique blend of technical and soft skills.</p>
         </section>
-        <section id="contact" class="my-10" data-aos="fade-up">
-            <h2 class="text-3xl font-semibold border-b border-gray-700 pb-2">Contact</h2>
-            <p class="mt-4">Email: abdelrhmanelmoghazy1@gmail.com</p>
-            <p>GitHub: <a href="https://github.com/abdelrhmanahmedelmoghazy" class="text-blue-500 hover:underline">abdelrhmanahmedelmoghazy</a></p>
+        <section id="contact" class="my-10" data-aos="fade-left">
+            <h2 class="text-4xl font-semibold section-title">Contact</h2>
+            <p class="mt-4">Email: <a href="mailto:abdelrhmanelmoghazy1@gmail.com" class="underline">abdelrhmanelmoghazy1@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/abdelrhmanahmedelmoghazy" class="underline">abdelrhmanahmedelmoghazy</a></p>
         </section>
     </main>
-    <footer class="p-5 bg-gray-800 text-center">
+    <footer class="p-5 text-center">
         <p>&copy; 2025 Abdelrhman Ahmed Mohamed Elmoghazy. All Rights Reserved.</p>
     </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            duration: 1200,
+        });
     </script>
 </body>
 </html>
