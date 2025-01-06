@@ -1,95 +1,105 @@
-/* General styles */
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #1a202c; /* Dark background */
-    color: #f7fafc; /* Light text color */
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
-    transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: #3182ce; /* Blue color for links */
-    transition: color 0.3s ease;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    line-height: 1.6;
 }
 
-a:hover {
-    color: #63b3ed; /* Lighter blue on hover */
-}
-
-/* Header */
 header {
-    background-color: #2d3748; /* Darker gray background */
-    padding: 2rem;
-    text-align: center;
+    background-color: #333; /* Darker header */
+    padding: 20px;
 }
 
-header h1 {
-    font-size: 3rem;
-    color: #f7fafc; /* Light color for text */
-    font-weight: bold;
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff; /* White text */
 }
 
-header p {
-    font-size: 1.25rem;
-    margin-top: 0.5rem;
-}
-
-/* Section styles */
-section {
-    padding: 2rem;
-    margin: 1rem 0;
-    background-color: #2d3748; /* Darker background for sections */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Section titles */
-section h2 {
+h2 {
     font-size: 2rem;
-    border-bottom: 2px solid #4a5568; /* Light border for titles */
-    padding-bottom: 0.5rem;
-    color: #f7fafc;
+    margin-bottom: 10px;
 }
 
-/* Skills List */
-ul {
-    list-style-type: none;
-    padding: 0;
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
-li {
-    font-size: 1.125rem;
-    margin: 0.5rem 0;
-    color: #edf2f7;
+nav {
+    margin: 20px 0;
 }
 
-/* Footer */
+nav a {
+    color: #1e90ff; /* Bright blue for links */
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.progress-bar {
+    background-color: #444; /* Background for progress bars */
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.progress-bar-fill {
+    background-color: #1e90ff; /* Fill color for progress */
+    height: 100%;
+    transition: width 1.5s ease; /* Smooth transition for width */
+}
+
 footer {
-    background-color: #2d3748;
-    color: #f7fafc;
-    padding: 1rem;
+    background-color: #333; /* Dark footer */
+    padding: 20px;
     text-align: center;
 }
 
 footer p {
-    font-size: 1rem;
+    color: #ffffff; /* White text in footer */
 }
 
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* AOS Animations */
-[data-aos="fade-up"] {
+/* AOS (Animate On Scroll) styles */
+[data-aos] {
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition-property: opacity, transform;
 }
 
-[data-aos="fade-up"].aos-animate {
+[data-aos].aos-animate {
     opacity: 1;
-    transform: translateY(0);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
 }
