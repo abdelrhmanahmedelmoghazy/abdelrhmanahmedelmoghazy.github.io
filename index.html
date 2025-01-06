@@ -8,29 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <style>
         body {
-            background: linear-gradient(to bottom, #000428, #004e92);
-            color: #e0e0e0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #333;
             font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
         }
         header, footer {
-            background-color: #0a1f44;
+            background-color: #2c3e50;
+            color: #ecf0f1;
         }
         h1, h2 {
-            color: #00bcd4;
+            color: #e74c3c;
         }
         a {
-            color: #00bcd4;
+            color: #3498db;
+            transition: color 0.3s ease;
         }
         a:hover {
-            color: #029eb3;
+            color: #2980b9;
         }
         .section-title {
-            border-bottom: 2px solid #00bcd4;
+            border-bottom: 2px solid #e74c3c;
         }
         .progress-bar {
             position: relative;
             height: 24px;
-            background-color: #1a1a1a;
+            background-color: #34495e;
             border-radius: 12px;
             overflow: hidden;
             margin-bottom: 10px;
@@ -38,12 +43,13 @@
         .progress-bar-fill {
             height: 100%;
             width: 0;
-            background-color: #00bcd4;
+            background-color: #e74c3c;
             transition: width 1.5s ease-in-out;
         }
         .label {
             margin-top: 5px;
             font-weight: bold;
+            color: #2c3e50;
         }
     </style>
 </head>
@@ -129,6 +135,7 @@
         <p>&copy; 2025 Abdelrhman Ahmed Mohamed Elmoghazy. All Rights Reserved.</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
     <script>
         AOS.init({
             duration: 1200,
