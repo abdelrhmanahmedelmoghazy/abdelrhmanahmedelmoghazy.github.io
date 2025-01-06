@@ -102,6 +102,11 @@ footer p {
     nav a {
         margin: 0 10px;
     }
+
+    .animated-window {
+        width: 90%; /* Make it wider on smaller screens */
+        max-width: none; /* Remove max-width for better fit */
+    }
 }
 
 .animated-window {
