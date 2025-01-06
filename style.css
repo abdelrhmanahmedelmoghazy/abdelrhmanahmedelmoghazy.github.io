@@ -123,3 +123,9 @@ footer p {
     height: auto; /* Maintain aspect ratio */
     max-width: 250px; /* Set a maximum width for the image */
 }
+
+.project-icon {
+    color: #1e90ff; /* Bright blue color */
+    font-size: 2rem; /* Adjust size as needed */
+    margin-right: 0.5rem; /* Space between icon and title */
+}
