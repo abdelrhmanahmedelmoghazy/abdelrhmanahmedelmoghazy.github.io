@@ -27,6 +27,19 @@
         .section-title {
             border-bottom: 2px solid #00bcd4;
         }
+        .progress-bar {
+            position: relative;
+            height: 24px;
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            width: 0;
+            background-color: #00bcd4;
+            transition: width 1.5s ease-in-out;
+        }
     </style>
 </head>
 <body>
@@ -37,36 +50,53 @@
     <main class="p-5">
         <section id="about" class="my-10" data-aos="fade-right">
             <h2 class="text-4xl font-semibold section-title">About Me</h2>
-            <p class="mt-4">I am Abdelrhman Ahmed Mohamed Elmoghazy, 21 years old, originally from Alexandria, Egypt, and have lived in Kuwait since 2010. I am a passionate programmer, web designer, and ethical hacker with extensive skills in various domains.</p>
+            <p class="mt-4">
+                I am Abdelrhman Ahmed Mohamed Elmoghazy, a 21-year-old programmer and ethical hacker originally from Alexandria, Egypt, and residing in Kuwait since 2010. 
+                My passion lies in creating innovative digital solutions, with a strong focus on security and functionality.
+            </p>
+            <p class="mt-4">
+                With extensive experience in web design, backend development, and mobile applications, I continuously seek to expand my knowledge and skills in the tech industry. 
+                My journey has also included roles in sales, digital marketing, and freelance programming, giving me a well-rounded perspective on business and technology.
+            </p>
         </section>
         <section id="skills" class="my-10" data-aos="fade-left">
-            <h2 class="text-4xl font-semibold section-title">Skills</h2>
-            <ul class="mt-4 grid grid-cols-2 gap-6">
-                <li>DevSecOps</li>
-                <li>Microsoft Excel</li>
-                <li>Digital Illustration</li>
-                <li>Customer Service</li>
-                <li>Ethical Hacking</li>
-                <li>Mobile Application Programming</li>
-                <li>Back-End Web Development</li>
-                <li>ASP.NET Web API</li>
-                <li>Web Design & Development</li>
-                <li>Source Intelligence</li>
-                <li>Microsoft Office</li>
-                <li>Cybercrime Investigation</li>
-                <li>Cyber Defense</li>
-                <li>Problem Solving</li>
-                <li>Marketing</li>
-            </ul>
-        </section>
-        <section id="experience" class="my-10" data-aos="fade-right">
-            <h2 class="text-4xl font-semibold section-title">Experience</h2>
-            <p class="mt-4">I have worked as a sales representative, digital marketer, and freelance programmer. My diverse background has provided me with a unique blend of technical and soft skills.</p>
-        </section>
-        <section id="contact" class="my-10" data-aos="fade-left">
-            <h2 class="text-4xl font-semibold section-title">Contact</h2>
-            <p class="mt-4">Email: <a href="mailto:abdelrhmanelmoghazy1@gmail.com" class="underline">abdelrhmanelmoghazy1@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/abdelrhmanahmedelmoghazy" class="underline">abdelrhmanahmedelmoghazy</a></p>
+            <h2 class="text-4xl font-semibold section-title">Programming Languages Proficiency</h2>
+            <div class="mt-4">
+                <label>Python - 100%</label>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 100%;" data-aos="fade-right"></div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <label>C++ - 100%</label>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 100%;" data-aos="fade-right" data-aos-delay="100"></div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <label>Go - 80%</label>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 80%;" data-aos="fade-right" data-aos-delay="200"></div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <label>C# - 100%</label>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 100%;" data-aos="fade-right" data-aos-delay="300"></div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <label>Java - 50%</label>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 50%;" data-aos="fade-right" data-aos-delay="400"></div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <label>JavaScript - 50%</label>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 50%;" data-aos="fade-right" data-aos-delay="500"></div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="p-5 text-center">
