@@ -118,12 +118,12 @@ export const footer = [
   //     data: [
   //       {
   //         text: "Stackoverflow",
-  //         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+  //         link: "https://stackoverflow.com/users/@@@@@",
   //       },
-  //       {
-  //         text: "GitHub",
-  //         link: "https://github.com/vinaysomawat",
-  //       },
+         {
+           text: "GitHub",
+           link: "https://github.com/abdelrhmanahmedelmoghazy",
+         },
   //       {
   //         text: "LeetCode",
   //         link: "https://leetcode.com/somawatvinay/",
@@ -143,33 +143,30 @@ export const footer = [
   //       },
   //       {
   //         text: "Clone this page",
-  //         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+  //         link: "https://github.com/@@@@@@@@@@@@",
   //       },
   //     ],
   //   },
   {
     label: "Links",
     data: [
-      //   {
-      //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/vinaysomawat/",
-      //   },
+         {
+           text: "Linkedin",
+           link: "linkedin.com/in/abdelrhman-mohamed-096762342",
+         },
       //   {
       //     text: "Twitter",
-      //     link: "https://twitter.com/thesigmakid",
+      //     link: "https://twitter.com/@@@@",
       //   },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+    
       {
         text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        link: "https://github.com/abdelrhmanahmedelmoghazy",
       },
     ],
   },
   {
     label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
+    data: ["by abdelrhman"],
   },
 ];
