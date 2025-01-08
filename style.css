@@ -60,7 +60,8 @@ section {
     border-radius: 5px;
     overflow: hidden;
     height: 20px;
-    width: 100%;
+    width: 80%; /* Set a maximum width */
+    margin: 0 auto; /* Center the progress bar */
 }
 
 .progress-bar-fill {
