@@ -6,17 +6,20 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /*Consider using a Google Font for better typography */
     background-color: #1a1a1a; /* Dark background */
     color: #f0f0f0; /* Light text color */
     line-height: 1.6;
 }
 
+/* Header styles */
 header {
     background-color: #333; /* Darker header */
     padding: 20px;
+    border-bottom: 2px solid #444; /* Add a bottom border */
 }
 
+/* Improved heading styles */
 h1 {
     font-size: 2.5rem;
     color: #ffffff; /* White text */
@@ -25,13 +28,10 @@ h1 {
 h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #1e90ff; /* Bright blue for subheadings */
 }
 
-h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
+/* Navigation styles */
 nav {
     margin: 20px 0;
 }
@@ -40,21 +40,25 @@ nav a {
     color: #1e90ff; /* Bright blue for links */
     text-decoration: none;
     margin: 0 15px;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s; /* Add transform for hover effect */
 }
 
 nav a:hover {
     color: #ff6347; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
+/* Main content styles */
 main {
     padding: 20px;
 }
 
+/* Section styles */
 section {
     margin-bottom: 40px;
 }
 
+/* Progress bar styles */
 .progress-bar {
     background-color: #444; /* Background for progress bars */
     border-radius: 5px;
@@ -70,6 +74,7 @@ section {
     transition: width 1.5s ease; /* Smooth transition for width */
 }
 
+/* Footer styles */
 footer {
     background-color: #333; /* Dark footer */
     padding: 20px;
@@ -78,6 +83,19 @@ footer {
 
 footer p {
     color: #ffffff; /* White text in footer */
+}
+
+/* Card styles for projects */
+.p-4 {
+    padding: 1rem;
+    background-color: #222; /* Darker background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: transform 0.3s; /* Add transition for hover effect */
+}
+
+.p-4:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
 }
 
 /* AOS (Animate On Scroll) styles */
