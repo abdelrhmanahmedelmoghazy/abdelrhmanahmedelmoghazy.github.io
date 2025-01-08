@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", async function () {
     el.innerHTML = `
         <a href="${profileLink}" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, #ffdd99, #f9bf3f); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
             <div style="display: flex; align-items: center; gap: 12px;">
-                <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="${profile_image}" alt="https://avatars.githubusercontent.com/u/193830761?s=4"></img>
+                <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="${profile_image}" alt="https://avatars.githubusercontent.com/u/193830761?s=400"></img>
                 <div style="flex-grow: 1;">
                     <h3 style="margin: 0; font-size: 18px; font-weight: bold;">${display_name}</h3>
                     <p style="margin: 4px 0 0; font-size: 12px; color: #555;">
