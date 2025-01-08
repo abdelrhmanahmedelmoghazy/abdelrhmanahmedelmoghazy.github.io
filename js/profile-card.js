@@ -59,16 +59,16 @@ window.addEventListener("DOMContentLoaded", async function () {
   });
 
   document.querySelectorAll(".github-card").forEach(async function (el) {
-    const username = el.getAttribute("username");
+    const username = el.getAttribute("Abdelrhman Elmoghazy");
 
-    const response = await get(`https://api.github.com/users/${username}`);
+    const response = await get(`https://api.github.com/users/abdelrhmanahmedelmoghazy`);
     const { name, avatar_url, public_repos, followers, html_url, following } =
       response;
 
     el.innerHTML = `
         <a href="${html_url}" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, #ffdd99, #f9bf3f); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
             <div style="display: flex; align-items: center; gap: 12px;">
-                <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="${avatar_url}" alt="Profile image"></img>
+                <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="https://avatars.githubusercontent.com/u/193830761?v=4" alt="Profile image"></img>
                 <div style="flex-grow: 1;">
                     <h3 style="margin: 0; font-size: 18px; font-weight: bold;">${name}</h3>
                     <p style="margin: 4px 0 0; font-size: 12px; color: #555;">
