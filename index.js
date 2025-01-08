@@ -192,7 +192,7 @@ function populateBlogs(items, id) {
 
 function populateRepo(items, id) {
   const projectdesign = document.getElementById(id);
-  const count = 4; // Adjust this count based on the number of repos you want to display
+  const count = 1; // Adjust this count based on the number of repos you want to display
 
   // Set up a wrapper div to hold repo cards in rows of 2
   const rowWrapper = document.createElement("div");

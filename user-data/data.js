@@ -1,8 +1,9 @@
 export const bio = [
-  "Hello, I'm Vinay Somawat!",
-  "I’m a passionate and experienced <strong>Frontend Engineer</strong> specializing in developing dynamic web applications using Angular and React. I thrive on optimizing performance and delivering innovative, user-focused solutions.",
-  "Beyond coding, I enjoy traveling through the serene <strong>Himalayan mountains</strong> and experimenting with new recipes in the <strong>kitchen</strong>.",
-];
+  "Hello, I'm Abdelrhman Ahmed Mohamed Elmoghazy!",
+  "I’m a passionate and experienced <strong>full-stack developer, ethical hacker, tech-savvy</strong> specializing in Secure and Scalable Web Applications. Dynamic and detail-oriented Full-Stack Developer with a solid foundation in both front-end and back-end technologies. Specializing in creating secure, scalable, and user-friendly web applications. Proficient in multiple programming languages and frameworks.",
+  "Beyond coding, I enjoy diving into the world of <strong>digital marketing</strong> and honing my skills in <strong>Photoshop</strong> to bring creative ideas to life."
+]
+
 
 export const skills = [
   "JavaScript, TypeScript, Angular, RxJS, NGRX/NGXS",
