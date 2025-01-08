@@ -5,41 +5,35 @@ window.addEventListener("DOMContentLoaded", async function () {
   }
 
   document.querySelectorAll(".stack-card").forEach(async function (el) {
-    const mediumUsername = el.getAttribute("medium-username");
+    const devUsername = el.getAttribute("dev-username");
 
-    const response = await fetch(`https://medium.com/@abdelrhmanelmoghazy1?format=json`);
-    const text = await response.text();
-    const json = JSON.parse(text.replace('])}while(1);</x>', ''));
-    const user = json.payload.user;
-    const {
-        imageId,
-        username,
-        name,
-        bio,
-        followersCount
-    } = user;
+    try {
+        const response = await fetch(`https://dev.to/api/users/by_username?url=abdelrahman_elmoghaz`);
+        const user = await response.json();
+        const { profile_image, username, name, summary, public_reactions_count } = user;
 
-    el.innerHTML = `
-        <a href="https://medium.com/@abdelrhmanelmoghazy1" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, #ffdd99, #f9bf3f); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
-            <div style="display: flex; align-items: center; gap: 12px;">
-                <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="https://miro.medium.com/fit/c/60/60/1*ba4i5zvS4jUsTvpbr_v7JA" alt="Profile image"></img>
-                <div style="flex-grow: 1;">
-                    <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Abdelrhman Elmoghazy</h3>
-                    <p style="margin: 4px 0 0; font-size: 12px; color: #555;">
-                        @abdelrhmanelmoghazy1
-                    </p>
-                    <p style="margin: 4px 0 0; font-size: 12px; color: #777;">
-                       tech-savvy , web dev
-                    </p>
+        el.innerHTML = `
+            <a href="https://dev.to/abdelrahman_elmoghaz" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, #ffdd99, #f9bf3f); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2677683%2F60ffc7ae-490b-4c84-b890-4966d66efae0.png" alt="Profile image"></img>
+                    <div style="flex-grow: 1;">
+                        <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Abdelrhman Elmoghazy</h3>
+                        <p style="margin: 4px 0 0; font-size: 12px; color: #555;">@abdelrahman_elmoghaz</p>
+                        <p style="margin: 4px 0 0; font-size: 12px; color: #777;">full-stack dev
+freelancer</p>
+                    </div>
                 </div>
-            </div>
-            <div style="margin-top: 16px; text-align: center;">
-                <p style="font-size: 12px; color: #666; margin: 0;">FOLLOWERS</p>
-                <p style="font-size: 20px; font-weight: bold; color: #222;">33</p>
-            </div>
-        </a>
+                <div style="margin-top: 16px; text-align: center;">
+                    <p style="font-size: 12px; color: #666; margin: 0;">REACTIONS</p>
+                    <p style="font-size: 20px; font-weight: bold; color: #222;">204</p>
+                </div>
+            </a>
         `;
+    } catch (error) {
+        console.error("Error fetching Dev.to data:", error);
+    }
 });
+
 
 
   document.querySelectorAll(".github-card").forEach(async function (el) {
