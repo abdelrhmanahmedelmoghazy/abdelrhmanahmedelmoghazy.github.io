@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsList = document.getElementById('projects-list');
 
     const projects = [
-        { name: 'Project 1', description: 'Description for project 1', link: '#' },
-        { name: 'Project 2', description: 'Description for project 2', link: '#' },
+        { name: 'Your Project 1', description: 'Description for your project 1', link: '#' },
+        { name: 'Your Project 2', description: 'Description for your project 2', link: '#' },
     ];
 
     projects.forEach(project => {
