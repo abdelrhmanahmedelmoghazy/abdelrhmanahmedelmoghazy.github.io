@@ -5,10 +5,10 @@ window.addEventListener("DOMContentLoaded", async function () {
   }
 
   document.querySelectorAll(".stack-card").forEach(async function (el) {
-    const userId = el.getAttribute("user-id");
+    const userId = el.getAttribute("@abdelrhmanelmoghazy1");
 
     const response = await get(
-      `https://api.stackexchange.com/2.2/users/${userId}?site=stackoverflow`
+      `https://medium.com/@abdelrhmanelmoghazy1`
     );
     const user = response.items[0];
     const {
@@ -24,15 +24,13 @@ window.addEventListener("DOMContentLoaded", async function () {
     const profileLink = website_url || link;
 
     el.innerHTML = `
-        <a href="${profileLink}" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, #ffdd99, #f9bf3f); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
+        <a href="https://medium.com/@abdelrhmanelmoghazy1" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, #ffdd99, #f9bf3f); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
             <div style="display: flex; align-items: center; gap: 12px;">
                 <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="https://avatars.githubusercontent.com/u/193830761?s=4" alt="Profile image"></img>
                 <div style="flex-grow: 1;">
-                    <h3 style="margin: 0; font-size: 18px; font-weight: bold;">${display_name}</h3>
+                    <h3 style="margin: 0; font-size: 18px; font-weight: bold;">abdelrhmanelmoghazy</h3>
                     <p style="margin: 4px 0 0; font-size: 12px; color: #555;">
-                        @${link
-                          .replace("https://", "")
-                          .replace(`/users/${user_id}`, "")}
+                        @abdelrhmanelmoghazy1
                     </p>
                 </div>
             </div>
