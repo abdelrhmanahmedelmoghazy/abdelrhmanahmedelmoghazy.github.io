@@ -229,7 +229,7 @@ function populateRepo(items, id) {
 
     // Repository name
     const repoName = document.createElement("h4");
-    repoName.className = "repo-heading";
+    repoName.className = "saintgram";
     repoName.innerHTML = items[i].name;
     repoName.style = "margin: 0; font-size: 18px; font-weight: bold;";
     repoLink.appendChild(repoName);
