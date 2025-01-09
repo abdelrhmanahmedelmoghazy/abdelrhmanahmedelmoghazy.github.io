@@ -220,7 +220,7 @@ function populateRepo(items, id) {
 
     // Make the card clickable by wrapping the content inside an anchor tag
     const repoLink = document.createElement("a");
-    repoLink.href = `https://github.com/joe444-pnj/saintgram`;
+    repoLink.href = `https://github.com/abdelrhmanahmedelmoghazy/abdelrhmanahmedelmoghazy.github.io`;
     repoLink.target = "_blank";
     repoLink.style =
       "text-decoration: none; color: black; display: block; height: 100%;";
@@ -229,7 +229,7 @@ function populateRepo(items, id) {
 
     // Repository name
     const repoName = document.createElement("h4");
-    repoName.className = "saintgram";
+    repoName.className = "repo-heading";
     repoName.innerHTML = items[i].name;
     repoName.style = "margin: 0; font-size: 18px; font-weight: bold;";
     repoLink.appendChild(repoName);
