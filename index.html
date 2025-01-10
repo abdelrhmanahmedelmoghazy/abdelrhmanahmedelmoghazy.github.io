@@ -1,243 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Abdelrhman Elmoghazy Portfolio</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Portfolio webpage of Abdelrhman Elmoghazy" />
-    <meta name="keywords" content="portfolio, website, personal website, github, projects, computer science and engineering" />
+    <meta
+      name="keywords"
+      content="portfolio,website,personal website,github,projects,computer science and engineering"
+    />
     <meta name="author" content="Abdelrhman Elmoghazy" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="icon" type="image/png" href="./logo.png" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
 
     <script src="js/modernizr-2.6.2.min.js"></script>
     <script type="module" src="index.js"></script>
     <script src="js/profile-card.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="colorlib-page">
-        <div class="container-wrap">
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-            <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
-                <div class="text-center">
-                    <div class="author-img">
-                        <img alt="profile-img" src="./logo.png" />
-                    </div>
-                    <h1 id="colorlib-logo"><a href="./index.html">Abdelrhman Elmoghazy</a></h1>
-                </div>
-                <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
-                    <div id="navbar" class="collapse">
-                        <ul>
-                            <li><a href="#" data-nav-section="about">About</a></li>
-                            <li><a href="#" data-nav-section="skills">Skills</a></li>
-                            <li><a href="#" data-nav-section="repos">Top Repositories</a></li>
-                            <li><a href="#" data-nav-section="blogs">Blogs</a></li>
-                            <li><a href="#" data-nav-section="experience">Work Experience</a></li>
-                            <li><a href="#" data-nav-section="trekking">Trekking</a></li>
-                            <li><a href="#" data-nav-section="education">Education</a></li>
-                            <li><a href="#" data-nav-section="contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </aside>
-            <div id="colorlib-main">
-                <!-- About Section -->
-                <section class="colorlib-about" data-section="about">
-                    <div class="colorlib-narrow-content">
-                        <div class="row animate-box" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <h1>About</h1>
-                                <div id="bio"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Skills Section -->
-                <section class="colorlib-skills" data-section="skills">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <h1>Skills</h1>
-                            </div>
-                        </div>
-                        <div id="skills" class="row"></div>
-                    </div>
-                </section>
-                <!-- Profile Section -->
-                <section class="colorlib-profile" data-section="profile-card">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="profile-cards">
-                                <div class="col">
-                                    <div class="stack-card" user-id="8461233"></div>
-                                </div>
-                                <div class="col">
-                                    <div class="github-card" username="Abdelrhman Elmoghazy"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Repositories Section -->
-                <section class="colorlib-experience no-print" data-section="repos">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <a href="https://github.com/abdelrhmanahmedelmoghazy" target="_blank" style="color: inherit">
-                                    <h1>Top <span style="color: #f9bf3f">Repositories</span><i class="fa fa-external-link" aria-hidden="true" style="font-size: 30px"></i></h1>
-                                </a>
-                            </div>
-                        </div>
-                        <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
-                            <li class="open">
-                                <ul id="repos" class="" style="display: block; padding: 10px">
-                                    <li>
-                                        <div class="repo-card">
-                                            <a href="https://github.com/vinaysomawat/vinaysomawat.github.io" target="_blank">
-                                                <h4 class="repo-heading">vinaysomawat.github.io</h4>
-                                                <p class="repo-description">A cutting-edge portfolio web page utilizing vanilla JavaScript.</p>
-                                                <div>
-                                                    <span><i class="fa fa-css3" aria-hidden="true"></i> CSS</span>
-                                                    <span><i class="fa fa-star" aria-hidden="true"></i> 321</span>
-                                                    <span><i class="fa fa-code-fork" aria-hidden="true"></i> 376</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="repo-card">
-                                            <a href="https://github.com/vinaysomawat/WhatsApp-Bot" target="_blank">
-                                                <h4 class="repo-heading">WhatsApp-Bot</h4>
-                                                <p class="repo-description">This Python-based Web WhatsApp Bot utilizes Selenium and web automation to send messages automatically to your WhatsApp contacts via web.whatsapp.com.</p>
-                                                <div>
-                                                    <span><i class="fa fa-python" aria-hidden="true"></i> Python</span>
-                                                    <span><i class="fa fa-star" aria-hidden="true"></i> 131</span>
-                                                    <span><i class="fa fa-code-fork" aria-hidden="true"></i> 56</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- Blogs Section -->
-                <section class="colorlib-blogs no-print" data-section="blogs">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <a href="https://github.com/abdelrhmanahmedelmoghazy" target="_blank" style="color: inherit">
-                                    <h1>Latest <span style="color: #f9bf3f">Blogs</span><i class="fa fa-external-link" aria-hidden="true" style="font-size: 30px"></i></h1>
-                                </a>
-                            </div>
-                        </div>
-                        <ul id="accordion" class="accordion animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                          <li class="open">
-                            <ul id="repos" class="" style="display: block; padding: 10px"><div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between;"><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/vinaysomawat.github.io" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">vinaysomawat.github.io</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">A cutting-edge portfolio web page utilizing vanilla JavaScript.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
-                    <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: #4d5356;" data-darkreader-inline-bgcolor=""></span>
-                    CSS
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
-                    321
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
-                    376
-                </div></div></a></div><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/WhatsApp-Bot" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">WhatsApp-Bot</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">This Python-based Web WhatsApp Bot utilizes Selenium and web automation to send messages automatically to your WhatsApp contacts via web.whatsapp.com.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
-                    <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: var(--darkreader-background-666666, #4d5356);" data-darkreader-inline-bgcolor=""></span>
-                    Python
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
-                    131
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
-                    56
-                </div></div></a></div><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/CareerHigh-Android" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">CareerHigh-Android</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">The application is designed to display website content through webviews on Android devices. It provides a straightforward and convenient method for generating Android apps from websites.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
-                    <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: var(--darkreader-background-666666, #4d5356);" data-darkreader-inline-bgcolor=""></span>
-                    Java
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
-                    44
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
-                    148
-                </div></div></a></div><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/Resume-Builder" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">Resume-Builder</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">A customizable web-based template editor utilizing Javascript, designed to create personalized resumes and letters in a variety of formats.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
-                    <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: var(--darkreader-background-666666, #4d5356);" data-darkreader-inline-bgcolor=""></span>
-                    HTML
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
-                    113
-                </div><div style="display: flex; align-items: center; gap: 4px;">
-                    <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
-                    72
-                </div></div></a></div></div></ul>
-                          </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- Work Experience Section -->
-                <section class="colorlib-experience" data-section="experience">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <h1>Work <span style="color: #f9bf3f">Experience</span></h1>
-                            </div>
-                        </div>
-                        <div class="timeline-centered" id="experience"></div>
-                    </div>
-                </section>
-                <!-- Trekking Section -->
-                <section class="colorlib-skills" data-section="trekking">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <h1>Trekking <span style="color: #f9bf3f">Adventures</span></h1>
-                                <p>Here are the treks I’ve explored so far:</p>
-                                <div id="trekking" class="row"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Education Section -->
-                <section class="colorlib-education" data-section="education">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <h1>Education</h1>
-                            </div>
-                        </div>
-                        <div class="timeline-centered" id="education"></div>
-                    </div>
-                </section>
-                <!-- Contact Section -->
-                <section class="colorlib-contact" data-section="contact">
-                    <div class="colorlib-narrow-content">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                            <div class="about-desc">
-                                <h1>Contact</h1>
-                            </div>
-                            <p>
-                                Feel free to email me at <strong>abdelrhmanelmoghazy1@gmail.com</strong> for tech discussions, business opportunities, or just to say hello—I’d love to hear from you!
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <!-- Footer Section -->
-                <section class="colorlib-footer no-print" data-section="footer">
-                    <div class="colorlib-narrow-content">
-                        <footer class="footer" id="footer"></footer>
-                    </div>
-                </section>
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ><i></i
+        ></a>
+        <aside
+          id="colorlib-aside"
+          role="complementary"
+          class="border js-fullheight no-print"
+        >
+          <div class="text-center">
+            <div class="author-img">
+              <img alt="profile-img" src="./logo.png" />
             </div>
+            <h1 id="colorlib-logo"><a href="./index.html">Abdelrhman Elmoghazy</a></h1>
+          </div>
+          <nav
+            id="colorlib-main-menu"
+            role="navigation"
+            class="navbar"
+            style="padding-top: 2em"
+          >
+            <div id="navbar" class="collapse">
+              <ul>
+                <li><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="skills">Skills</a></li>
+                <li>
+                  <a href="#" data-nav-section="repos">Top Repositories</a>
+                </li>
+                <li><a href="#" data-nav-section="blogs">Blogs</a></li>
+                <li>
+                  <a href="#" data-nav-section="experience">Work Experience</a>
+                </li>
+                <li>
+                  <a href="#" data-nav-section="trekking">Trekking</a>
+                </li>
+                <li><a href="#" data-nav-section="education">Education</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </aside>
+        <div id="colorlib-main">
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+                  <h1>About</h1>
+                  <div id="bio"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="colorlib-skills" data-section="skills">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Skills</h1>
+                </div>
+              </div>
+              <div id="skills" class="row"></div>
+            </div>
+          </section>
+          <section class="colorlib-profile" data-section="profile-card">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="profile-cards">
+                  <div class="col">
+                    <div class="stack-card" user-id="8461233"></div>
+                  </div>
+                  <div class="col">
+                    <div class="github-card" username="Abdelrhman Elmoghazy"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="colorlib-experience no-print" data-section="repos">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <a
+                    href="https://github.com/abdelrhmanahmedelmoghazy"
+                    target="_blank"
+                    style="color: inherit"
+                  >
+                    <h1>
+                      Top <span style="color: #f9bf3f">Repositories</span>
+                      <i
+                        class="fa fa-external-link"
+                        aria-hidden="true"
+                        style="font-size: 30px"
+                      ></i>
+                    </h1>
+                  </a>
+                </div>
+              </div>
+              <ul
+              <ul id="accordion" class="accordion animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                <li class="open">
+                  <ul id="repos" class="" style="display: block; padding: 10px"><div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between;"><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/vinaysomawat.github.io" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">vinaysomawat.github.io</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">A cutting-edge portfolio web page utilizing vanilla JavaScript.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
+          <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: #4d5356;" data-darkreader-inline-bgcolor=""></span>
+          CSS
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
+          321
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
+          376
+      </div></div></a></div><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/WhatsApp-Bot" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">WhatsApp-Bot</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">This Python-based Web WhatsApp Bot utilizes Selenium and web automation to send messages automatically to your WhatsApp contacts via web.whatsapp.com.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
+          <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: var(--darkreader-background-666666, #4d5356);" data-darkreader-inline-bgcolor=""></span>
+          Python
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
+          131
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
+          56
+      </div></div></a></div><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/CareerHigh-Android" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">CareerHigh-Android</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">The application is designed to display website content through webviews on Android devices. It provides a straightforward and convenient method for generating Android apps from websites.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
+          <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: var(--darkreader-background-666666, #4d5356);" data-darkreader-inline-bgcolor=""></span>
+          Java
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
+          44
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
+          148
+      </div></div></a></div><div class="repo-card" style="flex: 1 0 48%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63)); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; transition: transform 0.2s ease-in-out; cursor: pointer; --darkreader-inline-bgcolor: var(--darkreader-background-00000000, rgba(0, 0, 0, 0)); --darkreader-inline-bgimage: linear-gradient(135deg, var(--darkreader-background-ffdd99, #543800), var(--darkreader-background-f9bf3f, #7b5604)); --darkreader-inline-boxshadow: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)) 0px 4px 10px;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow=""><a href="https://github.com/vinaysomawat/Resume-Builder" target="_blank" style="text-decoration: none; color: black; display: block; height: 100%; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=""><h4 class="repo-heading" style="margin: 0px; font-size: 18px; font-weight: bold;">Resume-Builder</h4><p class="repo-description" style="margin-top: 8px; font-size: 12px; color: rgb(85, 85, 85); --darkreader-inline-color: var(--darkreader-text-555555, #b2aca2);" data-darkreader-inline-color="">A customizable web-based template editor utilizing Javascript, designed to create personalized resumes and letters in a variety of formats.</p><div style="display: flex; align-items: center; gap: 16px; margin-top: 12px; font-size: 12px; color: rgb(102, 102, 102); --darkreader-inline-color: var(--darkreader-text-666666, #a8a095);" data-darkreader-inline-color=""><div style="display: flex; align-items: center; gap: 4px;">
+          <span style="width: 8px; height: 8px; background-color: rgb(102, 102, 102); border-radius: 50%; display: inline-block; --darkreader-inline-bgcolor: var(--darkreader-background-666666, #4d5356);" data-darkreader-inline-bgcolor=""></span>
+          HTML
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
+          113
+      </div><div style="display: flex; align-items: center; gap: 4px;">
+          <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
+          72
+      </div></div></a></div></div></ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="colorlib-blogs no-print" data-section="blogs">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <a
+                    href="https://github.com/abdelrhmanahmedelmoghazy"
+                    target="_blank"
+                    style="color: inherit"
+                  >
+                    <h1>
+                      Latest <span style="color: #f9bf3f">Blogs</span>
+                      <i
+                        class="fa fa-external-link"
+                        aria-hidden="true"
+                        style="font-size: 30px"
+                      ></i>
+                    </h1>
+                  </a>
+                </div>
+              </div>
+              <ul
+                id="accordion"
+                class="accordion animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <li class="open">
+                  <ul
+                    id="blogs"
+                    class="submenu"
+                    style="
+                      display: flex;
+                      padding: 10px;
+                      flex-direction: column;
+                      gap: 10px;
+                    "
+                  ></ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Work <span style="color: #f9bf3f">Experience</span></h1>
+                </div>
+              </div>
+              <div class="timeline-centered" id="experience"></div>
+            </div>
+          </section>
+          <section class="colorlib-skills" data-section="trekking">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>
+                    Trekking <span style="color: #f9bf3f">Adventures</span>
+                  </h1>
+                  <p>Here are the treks I’ve explored so far:</p>
+                  <div id="trekking" class="row"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="colorlib-education" data-section="education">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Education</h1>
+                </div>
+              </div>
+              <div class="timeline-centered" id="education"></div>
+            </div>
+          </section>
+          <section class="colorlib-contact" data-section="contact">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Contact</h1>
+                </div>
+                <p>
+                  Feel free to email me at <strong>abdelrhmanelmoghazy1@gmail.com</strong> for tech
+                  discussions, business opportunities, or just to say hello—I’d
+                  love to hear from you!
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="colorlib-footer no-print" data-section="footer">
+            <div class="colorlib-narrow-content">
+              <footer class="footer" id="footer"></footer>
+            </div>
+          </section>
         </div>
+      </div>
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
