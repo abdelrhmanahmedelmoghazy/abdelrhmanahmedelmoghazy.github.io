@@ -13,79 +13,67 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
-    icon: "truck ",
+    title: "Freelance Programmer",
+    duration: "2019 - Present",
+    subtitle: "Freelancer",
+    details: [
+      "Developed and maintained software solutions for various clients, covering web and mobile application development.",
+      "Provided backend solutions and integrations using multiple programming languages and frameworks.",
+      "Collaborated with clients to gather requirements and ensure timely delivery of projects."
+    ],
+    tags: ["Python", "Java", "JavaScript", "Golang", "Flutter" , "C++" , "C#" , "Kotlin"],
+    icon: "code",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Ethical Hacker",
+    duration: "2020 - Present",
+    subtitle: "Security Consultant",
     details: [
-      `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+      "Conducted security assessments and vulnerability scans for organizations to identify potential security risks.",
+      "Provided recommendations and implemented security measures to protect against cyber threats.",
+      "Educated clients on best practices for cybersecurity to prevent data breaches and cyber attacks."
     ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
-    icon: "heartbeat",
+    tags: ["Penetration Testing", "Cybersecurity", "Ethical Hacking", "Network Security"],
+    icon: "shield-alt",
   },
   {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "Bug Bounty Hunter",
+    duration: "2019 - Present",
+    subtitle: "Independent Security Researcher",
     details: [
-      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+      "Participated in various bug bounty programs, discovering and reporting vulnerabilities in web and mobile applications.",
+      "Earned rewards for identifying critical security flaws, contributing to the improvement of application security.",
+      "Maintained a strong focus on web application security, using tools and techniques to uncover hidden vulnerabilities."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
+    tags: ["Bug Bounties", "Web Security", "Application Security", "Vulnerability Analysis"],
+    icon: "bug",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "Salesman",
+    duration: "2016 - 2018",
+    subtitle: "Retail Sales Associate",
     details: [
-      `Developed a customer web application for social media management, supporting the advertisement domain.`,
+      "Assisted customers with product selection, provided detailed information, and ensured a positive shopping experience.",
+      "Managed inventory and maintained product displays to optimize sales.",
+      "Consistently met and exceeded sales targets through excellent customer service and product knowledge."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
+    tags: ["Sales", "Customer Service", "Inventory Management"],
+    icon: "shopping-cart",
+  },
+  {
+    title: "Digital Marketing Specialist",
+    duration: "2018 - 2020",
+    subtitle: "Marketing Consultant",
+    details: [
+      "Developed and implemented digital marketing strategies to enhance online presence and drive traffic to client websites.",
+      "Managed social media accounts and executed campaigns across various platforms to boost engagement and brand awareness.",
+      "Utilized SEO and SEM techniques to improve search engine rankings and online visibility."
+    ],
+    tags: ["Digital Marketing", "SEO", "SEM", "Social Media Marketing"],
+    icon: "bullhorn",
   },
 ];
 
-export const trekking = [
-  '<strong>Kheerganga Trek</strong>, Himachal Pradesh (9,711 feet)',
-  '<strong>Triund Trek</strong>, Himachal Pradesh (9,350 feet)',
-  '<strong>Kedarkantha Trek</strong>, Uttarakhand (12,500 feet)',
-  '<strong>Jalori Pass Trek</strong>, Himachal Pradesh (10,800 feet)',
-  '<strong>Vaishno Devi Trek</strong>, Jammu & Kashmir (5,200 feet)',
-];
 
 export const education = [
   {
