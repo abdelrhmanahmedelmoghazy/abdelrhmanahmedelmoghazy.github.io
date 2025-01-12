@@ -6,9 +6,19 @@ export const bio = [
 
 
 export const skills = [
-  "JavaScript, TypeScript, Angular,",
-  "HTML, Bootstrap, CSS, Python, C++, C#, Golang",
-  "GitHub, Debugging, Chrome DevTools"
+  "JavaScript",
+  "TypeScript",
+  "Angular",
+  "HTML",
+  "Bootstrap",
+  "CSS",
+  "Python",
+  "C++",
+  "C#",
+  "Golang",
+  "GitHub",
+  "Debugging",
+  "Chrome DevTools"
 ]
 
 export const experience = [
