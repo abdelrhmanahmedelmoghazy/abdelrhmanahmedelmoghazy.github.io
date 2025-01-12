@@ -82,19 +82,13 @@ function populateBio(items, id) {
   });
 }
 
-function populateSkills(items, id) {
-  const skillsTag = document.getElementById(id);
-  items.forEach((item) => {
-    const h3 = getElement("li", null);
-    h3.innerHTML = item;
-
-    const divProgressWrap = getElement("div", "progress-wrap");
-    divProgressWrap.append(h3);
-
-    const divAnimateBox = getElement("div", "col-md-12 animate-box");
-    divAnimateBox.append(divProgressWrap);
-
-    skillsTag.append(divAnimateBox);
+function populateSkills(skills, elementId) {
+  const skillsContainer = document.getElementById(elementId);
+  skills.forEach(skill => {
+    const skillElement = document.createElement('div');
+    skillElement.className = 'skill';
+    skillElement.innerHTML = `<h3>${skill}</h3>`;
+    skillsContainer.appendChild(skillElement);
   });
 }
 
