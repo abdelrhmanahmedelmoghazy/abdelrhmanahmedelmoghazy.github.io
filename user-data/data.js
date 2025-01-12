@@ -77,29 +77,29 @@ export const experience = [
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "student",
+    subtitle: "Arab Open University, Kuwait",
     details: [],
     tags: [
       "Data Structures & Algorithms",
       "Operating Systems",
-      "Database Management System",
+      "Database Management Systems",
       "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Artificial Intelligence",
+      "Cybersecurity"
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    title: "High School Diploma",
+    duration: "2018 - 2020",
+    subtitle: "Egyptian High School Certificate",
     details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
+    tags: ["Physics", "law", "Mathematics", "Computer Science"],
+    icon: "school",
   },
 ];
+
 
 export const footer = [
   //   {
